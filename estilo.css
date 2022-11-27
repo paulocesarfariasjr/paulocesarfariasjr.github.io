@@ -1,0 +1,57 @@
+div.inicio  {
+
+border-bottom: 1px solid black;
+
+
+}
+
+
+figure  {
+
+
+
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 40px;
+margin-inline-end: 40px;
+font-weight: bold;
+}
+
+div.inicio h3 {
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+
+div.trabalhos ul{
+
+padding: 30px;
+}
+
+
+div.trabalhos li {
+
+padding: 5px;
+}
+
+div.trabalhos a:hover{
+
+
+color: black;
+
+
+
+
+}
+
+
+
+
+
+
