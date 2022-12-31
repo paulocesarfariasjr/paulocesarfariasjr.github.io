@@ -1,9 +1,150 @@
-div.inicio  {
+@font-face {
+    font-family: Netflix;
+    src: url(/trabalho7/Trabalho7_files/BebasNeue-Regular.ttf);
+}
 
-border-bottom: 1px solid black;
+@font-face {
+    font-family: Aharani;
+    src: url(/trabalho8/font/Avenir\ Next\ LT\ Pro\ Regular.otf);
+}
+
+
+
+
+
+
+
+
+
+body{
+
+
+background-color: rgb(18, 228, 130);
+padding: 0 10%;
+
+
+
 
 
 }
+
+
+.navbar-nav {
+
+
+
+padding-left: 85px;
+
+
+}
+
+.navbar-brand{
+
+
+margin-left: 3.2%;
+
+}
+
+
+.nav-item{
+
+
+
+
+
+}
+
+.nav-item .nav-link{
+
+margin-right: 40px;
+font-family: Arial, Helvetica, sans-serif;
+
+    
+
+
+}
+
+.nav-item a.nav-link:hover{
+
+    color: white;
+    
+        
+    
+    
+    }
+
+
+
+
+div.inicio hgroup {
+
+margin-top: 2%;
+margin-left: 3.5%;
+font-family: Netflix;
+
+
+
+
+}
+
+div.inicio hgroup h1{
+
+
+font-size: 28px;
+color: white;
+
+
+
+}
+
+
+div.trabalhos ul {
+
+list-style: none;
+
+} 
+
+div.trabalhos ul li a {
+
+text-decoration: none;
+font-family: Netflix;
+font-size: x-large;
+color: rgb(255, 255, 255);
+
+
+
+
+
+}
+
+
+
+
+.img-fluid{
+
+
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+
+
+}
+
+
+
+
+
+div.inicio  {
+
+border-bottom: 1px solid rgb(255, 255, 255);
+
+
+}
+
+
+
+
 
 
 figure  {
@@ -43,7 +184,8 @@ padding: 5px;
 div.trabalhos a:hover{
 
 
-color: black;
+color: rgb(61, 61, 60);
+transition: 0.4s;
 
 
 
