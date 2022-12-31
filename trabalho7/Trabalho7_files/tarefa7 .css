@@ -1,8 +1,14 @@
+@font-face {
+  font-family: Netflix;
+  src: url(/trabalho7/Trabalho7_files/BebasNeue-Regular.ttf);
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    
   }
   
   #text {
@@ -14,15 +20,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #c7d6de;
+    background-color: rgb(18, 228, 130);
+    font-family: sans-serif;
   }
   
   h1 {
-    font-size: 36px;
-    font-family: sans-serif;
+    font-size: 56px;
     font-weight: 600;
-    color: #29434f;
-    font-weight: bold;
+    color: #ffffff;
+    font-family: Netflix;
     margin: 50px 0;
   }
   
@@ -99,9 +105,9 @@
     margin-bottom: 5px;
   }
   
-  .card__top-classificacao--14,
-  .card__top-classificacao--12,
-  .card__top-classificacao--10,
+  
+  
+  
   .card__top-classificacao--0 {
     background-color: green;
   }
@@ -113,6 +119,20 @@
   .card__top-classificacao--18 {
     background-color: black;
   }
+
+  .card__top-classificacao--14{
+    background-color: orange;
+  }
+
+  .card__top-classificacao--12{
+    background-color: gold;
+  }
+
+  .card__top-classificacao--10{
+    background-color: rgb(31, 208, 231);
+  }
+
+
   
   .card-top__stars {
     display: flex;
