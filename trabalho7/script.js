@@ -15,6 +15,7 @@ function getMovies(url) {
                 <img class="card__top-image" alt="Banner do filme/serie" src="${
                   filme.figura
                 }"/>
+  
                 <div class="card__top-middle">
                   <h2>${filme.titulo}</h2>
                   <div class="card__top-generos">
@@ -34,9 +35,10 @@ function getMovies(url) {
                   </div>
                   
                 </div>
+  
                 <div class="card__top-ratings">
                   <span class="card__top-classificacao--${filme.classificacao}">${
-      filme.classificacao == 0 ? "Livre" : `${filme.classificacao}`
+      filme.classificacao == 0 ? "L" : `${filme.classificacao}`
     }</span>
                   
                   ${filme.opinioes
@@ -45,6 +47,7 @@ function getMovies(url) {
                       rating += element.rating;
                     })
                     .join("")}
+  
                   <span class="card-top__stars">${
                     rating / contador < 5
                       ? `<img alt="estrela de raking" src="./star-yellow.svg"/> <img alt="estrela de raking" 

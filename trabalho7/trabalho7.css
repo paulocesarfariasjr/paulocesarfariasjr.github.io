@@ -1,14 +1,19 @@
 @font-face {
-  font-family: Netflix;
-  src: url(/trabalho7/Trabalho7_files/BebasNeue-Regular.ttf);
+    font-family: netflix;
+    src: url(/trabalho7/fonts/BebasNeue-Regular.ttf);
 }
+
+
+
+
+
 
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    font-family: sans-serif;
   }
   
   #text {
@@ -20,15 +25,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(18, 228, 130);
-    font-family: sans-serif;
+    background-color:  rgb(18, 228, 130);
   }
   
   h1 {
-    font-size: 56px;
+    font-size: 60px;
+    font-family: netflix;
     font-weight: 600;
     color: #ffffff;
-    font-family: Netflix;
+    font-weight: bold;
     margin: 50px 0;
   }
   
@@ -40,7 +45,7 @@
   }
   
   .card__container {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
   }
   .card__top {
@@ -109,7 +114,7 @@
   
   
   .card__top-classificacao--0 {
-    background-color: green;
+    background-color: rgb(31, 196, 31);
   }
   
   .card__top-classificacao--16 {
@@ -121,17 +126,25 @@
   }
 
   .card__top-classificacao--14{
-    background-color: orange;
+
+    background-color: rgb(233, 79, 24);
+
   }
 
   .card__top-classificacao--12{
-    background-color: gold;
+
+    background-color: rgb(231, 211, 30);
+
+
   }
 
   .card__top-classificacao--10{
-    background-color: rgb(31, 208, 231);
-  }
 
+    background-color: rgb(43, 194, 194);
+
+
+
+  }
 
   
   .card-top__stars {
@@ -181,5 +194,3 @@
       max-width: none;
     }
   }
-
-  
