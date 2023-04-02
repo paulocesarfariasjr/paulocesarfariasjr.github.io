@@ -1,0 +1,82 @@
+@font-face {
+    font-family:'navbar' ;
+    src: url("../Fonts/Oswald-Bold.ttf");
+}
+
+
+
+
+
+
+
+*{
+
+margin: 0%;
+padding: 0%;
+
+
+}
+
+
+body{
+
+background-image: url('../Images/waterphase4.png');
+background-repeat: no-repeat;
+/*background-size: cover;*/
+
+
+
+
+}
+
+
+header{
+
+padding: 0 2rem;
+
+}
+
+
+.navbar{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+
+a{
+
+text-decoration: none;
+color:#1e1d3f;
+font-family: 'navbar';
+
+}
+
+.links{
+
+list-style: none;
+display: flex;
+align-items: center;
+gap: 1rem;
+font-size: 1.2rem;
+
+}
+
+.logo{
+
+font-family:'navbar';
+font-size: 3rem;
+font-weight: bold;
+}
+
+
+ .btnMenu i {
+
+
+font-size: 2rem;
+margin-top: 1rem;
+cursor: pointer;
+
+
+}
