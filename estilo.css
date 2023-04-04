@@ -26,9 +26,9 @@ font-family: 'Open Sans',sans-serif;
 body{
 
    height: 100vh;
-    background-color: rgb(0, 0, 0);
-    background-image: url('../Images/waterphase4.png');
-    /*background-size: cover;*/
+    background-color:#0e0f1b;
+    background-image: url('/Images/download.gif');
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -45,7 +45,7 @@ li{
 a{
 
 text-decoration: none;
-color: rgb(0, 0, 0);
+color: #0e0f1b;
 font-size: 1.2rem;
 font-family: 'navbar';
 
@@ -107,7 +107,7 @@ display: none;
 
 .navbar .actBtn{
 
-background-color: black;
+background-color: #0e0f1b;
 color: rgb(255, 255, 255);
 padding: 0.5rem 1rem;
 border: none;
@@ -367,7 +367,7 @@ section#phrase{
 display: flex;
 justify-content: center;
 align-items: center;
-color: rgb(0, 0, 0);
+color:#0e0f1b;
 flex-direction: column;
 
 
