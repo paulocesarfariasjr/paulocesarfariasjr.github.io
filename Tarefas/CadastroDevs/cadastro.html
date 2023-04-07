@@ -1,88 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cadastro.css">
-    <script src="script.js" defer></script>
-    <title>Cadastro de devs</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Devs</title>
+  <script src="./script.js" defer></script>
 </head>
 <body>
+  <h1>Cadastro de Devs</h1>
+  <hr>
 
+  <h2>Cadastrar Novo Desenvolvedor</h2>
 
-    <header>
-
-        <div class="logo">
-
-
-            <img src="" alt="">
-
-
-
-        </div>
-
-
-        <div class="text">
-
-
-            <h1>
-
-                Cadastro de Desenvolvedores
-
-            </h1>
-
-
-
-        </div>
-
-
-
-    </header>
-
+  <form id="devForm">
+    <label for="fullname">Nome Completo:</label>
+    <input type="text" name="fullname" id="fullname"><br><br>
     
-    
-    <form id="devform">
-    
-    <label for="fullname">Nome Completo :</label>
-    <input type="text" id="fullname" name="fullname"><br><br>
-    <label>Tecnologias </label>
-    <button id="addNewTec">Adicionar Nova Tecnologia</button>
-    <li id="stackinputs"></li>
+    <label>Tecnologias:</label><br>
+    <button id="addTechBtn" type="button">Adicionar Nova</button>
+    <ul id="stackInputs"></ul>
+    <br>
     <button type="submit">Cadastrar</button>
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-    </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+  </form>
 </body>
 </html>
