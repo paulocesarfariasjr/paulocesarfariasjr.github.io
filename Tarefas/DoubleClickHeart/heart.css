@@ -11,13 +11,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f6f7fb;
+  background: #9cbfca;
 }
 .container {
   position: relative;
   height: 420px;
   width: 320px;
-  background-image: url("/Images/person.jpeg");
+  background-image: url("/Images/vintageWater.gif");
   background-size: cover;
   background-position: center;
   border-radius: 12px;
@@ -25,13 +25,18 @@ body {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
 }
 .heart {
-  position: absolute;
-  color: red;
-  font-size: 40px;
-  opacity: 1;
-  transform: translate(-50%, -50%);
+  
+  position: relative;
+  left: 35%;
+  right: 35%;
+  top: 35%;
+  color: rgb(245, 0, 0);
+  font-size: 100px;
+  opacity: 0;
+  
+
 }
 .heart.active {
-  opacity: 0;
-  transition: 0.5s;
+  opacity: 1;
+  transition: 0.8s;
 }
