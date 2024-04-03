@@ -1,0 +1,53 @@
+* {
+
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 2.3rem;
+}
+
+
+
+body{
+
+
+background-image: url("https://images.hdqwalls.com/download/mountains-retreat-minimal-beautiful-4k-vl-1366x768.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+.container{
+
+margin-top: 8.5rem;
+
+}
+
+.clock{
+
+background-color: white;
+
+
+}
+
+.clock ul li{
+
+list-style: none;
+}
+.clock ul {
+
+    display: flex;
+
+    justify-content: center;
+}
+    
+
+#Date{
+
+
+    display: flex;
+    justify-content: center;
+}
