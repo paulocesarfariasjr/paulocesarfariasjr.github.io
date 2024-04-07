@@ -10,6 +10,25 @@ box-sizing: border-box;
 }
 
 
+
+
+.navbar .options ul {
+
+list-style: none;
+display: flex;
+
+
+}
+
+
+.navbar .options ul li {
+
+margin-right: 8px;
+align-items: center;
+margin-bottom: 6px;
+}
+
+
 .navbar{
 
 font-family: 'shark';
@@ -29,29 +48,6 @@ align-items: center;
 
 }
 
-.asideMenu{
-position: absolute;
-display: none;
-border-radius: 15px;
-gap: 10px;
-top:3rem;
-width: 260px;
-height: 0%;
-overflow: hidden;
-background-color: rgb(255 255 255 / 10%);
-backdrop-filter: blur(15px);
-padding: 1rem 0.2rem;
-
-
-}
-
-.asideMenu.open{
-
-display: block;
-height: 440px;
-
-
-}
 
 
 
@@ -138,11 +134,12 @@ font-size: 1rem;
         color: azure;
     }
 
-.theme{
+.search{
 
-display: flex;
 align-items: center;
-gap: 0.2rem;
+
+
+
 
 }
 
