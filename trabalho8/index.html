@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="short icon" href="img/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Marvel</title>
+</head>
+<body>
+
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar bg" id="navbar">
+      <a class="navbar-brand" href="#"><img src="img/marvel-logo.png" alt="..." class="img-thumbnail"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME <span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#characters">CHARACTERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/paulocesarfariasjr">GITHUB</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" style="color: grey;">GAMES</a>
+            </li>
+          </ul>
+            </div>
+            <div class="toggle-container">
+              <input type="checkbox" class="checkbox" id="chk" />
+              <label class="label" for="chk">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+              </label>
+            </div>
+      </nav>
+  </header>
+
+  <main>
+
+    <figure>
+      <a href="#">
+        <img src="img/avengers.jpeg" class="img-fluid" alt="Imagem responsiva" style="filter: invert(0);">
+      </a>
+        </figure>
+
+    <div id="characters"></div>
+    <p class="section-title">PERSONAGENS EM DESTAQUE</p>
+
+    <div class="container" style="max-width: 80%; text-align: center;">
+      <hr>
+      <div class="row" >
+          <div class="col-lg-4 col-sm-6 col-xs-12" style="margin-top: 3%;">
+              <a href="ironman.html">
+                <div style="position: relative;">
+                  <img src="img/ironman.jpg" id="iron-man" class="thumbnail img-responsive" width="75%" style="border-bottom: solid red 28px;">
+                  <div class="iron-man" style="position: absolute; bottom: -28%; left: 0; width: 75%; background-color: rgb(31, 31, 31); margin-left: 12.5%;
+                  border-bottom-right-radius: 40px;">
+                    <p style="color: white; margin-top: 5%; padding-bottom: 20px; margin-left: 10%; text-align: left;" > IRON MAN</p>
+                      <p style="color: rgb(192, 192, 192); margin-left: 10%; text-align: left;"> Tony Stark </p>
+                    </p>
+                  </div>
+                </div>
+              </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-xs-12" style="margin-top: 3%;">
+            <a href="thor.html">
+              <div style="position: relative;">
+                <img src="img/thor.jpg" id="thor" class="thumbnail img-responsive" width="75%" style="border-bottom: solid yellow 28px;">
+                <div class="thor" style="position: absolute; bottom: -28%; left: 0; width: 75%; background-color: rgb(31, 31, 31); margin-left: 12.5%;
+                border-bottom-right-radius: 40px;">
+                  <p style="color: white; margin-top: 5%; padding-bottom: 20px; margin-left: 10%; text-align: left;" > THOR</p>
+                    <p style="color: rgb(192, 192, 192); margin-left: 10%; text-align: left;"> Thorlief Golmen </p>
+                  </p>
+                </div>
+              </div>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-xs-12" style="margin-top: 3%;">
+          <a href="hulk.html">
+            <div style="position: relative;">
+              <img src="img/hulk.jpg" id="hulk" class="thumbnail img-responsive" width="75%" style="border-bottom: solid green 28px;">
+              <div class="hulk" style="position: absolute; bottom: -28%; left: 0; width: 75%; background-color: rgb(31, 31, 31); margin-left: 12.5%;
+              border-bottom-right-radius: 40px;">
+                <p style="color: white; margin-top: 5%; padding-bottom: 20px; margin-left: 10%; text-align: left;" > HULK</p>
+                  <p style="color: rgb(192, 192, 192); margin-left: 10%; text-align: left;"> Bruce Banner </p>
+                </p>
+              </div>
+            </div>
+          </a>
+      </div>
+
+          <div class="col-lg-4 col-sm-6 col-xs-12" style="margin-top: 10%; margin-bottom: 10%;">
+              <a href="viuvanegra.html">
+                <div style="position: relative;">
+                  <img src="img/viuva.jpg" id="viuva" class="thumbnail img-responsive" width="75%" style="border-bottom: solid purple 28px;">
+                  <div class="viuva" style="position: absolute; bottom: -28%; left: 0px; width: 75%; background-color: rgb(31, 31, 31); margin-left: 12.5%;
+                  border-bottom-right-radius: 40px;">
+                    <p style="color: white; margin-top: 5%; padding-bottom: 20px; margin-left: 10%; text-align: left;" > BLACK WIDOW</p>
+                      <p style="color: rgb(192, 192, 192); margin-left: 10%; text-align: left;"> Natasha Romanoff </p>
+                    </p>
+                  </div>
+                </div>
+              </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-xs-12" style="margin-top: 10%; margin-bottom: 10%;">
+              <a href="captain.html">
+                <div style="position: relative;">
+                  <img src="img/captain.jpg" id="captain" class="thumbnail img-responsive" width="75%" style="border-bottom: solid blue 28px;">
+                  <div class="captain" style="position: absolute; bottom: -28%; left: 0; width: 75%; background-color: rgb(31, 31, 31); margin-left: 12.5%;
+                  border-bottom-right-radius: 40px;">
+                    <p style="color: white; margin-top: 5%; padding-bottom: 20px; margin-left: 10%; text-align: left;" > CAPTAIN AMERICA</p>
+                      <p style="color: rgb(192, 192, 192); margin-left: 10%; text-align: left;"> Steve Rogers </p>
+                    </p>
+                  </div>
+                </div>
+              </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-xs-12" style="margin-top: 10%; margin-bottom: 10%;">
+            <a href="hawkeye.html">
+              <div style="position: relative;">
+                <img src="img/gaviao.jpg" id="hawkeye" class="thumbnail img-responsive" width="75%" style="border-bottom: solid rgb(111, 0, 255) 28px;">
+                <div class="gaviao" style="position: absolute; bottom: -28%; left: 0; width: 75%; background-color: rgb(31, 31, 31); margin-left: 12.5%;
+                border-bottom-right-radius: 40px;">
+                  <p style="color: white; margin-top: 5%; padding-bottom: 20px; margin-left: 10%; text-align: left;" > HAWKEYE </p>
+                    <p style="color: rgb(192, 192, 192); margin-left: 10%; text-align: left;"> Clint Barton </p>
+                  </p>
+                </div>
+              </div>
+            </a>
+        </div>
+
+      </div>
+  </div>
+  </main>
+
+  <footer id="footer">
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+    <script src="js/index.js"></script>
+
+    <div id="particles-js"></div>
+      <script src="js/particles.min.js"></script>
+      <script>
+        particlesJS(
+          {
+      "particles": {
+        "number": {
+          "value": 80,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#FFFFFF"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#FFFFFF",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 400,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    }
+        )
+      </script>
+
+   
+    <br>
+    <p>&copy; Feito por <br> <a type="bold" class="copy"> </i> 📫 Rafael B. Cabral and Paulo Cesar Farias Jr <br></a>
+
+  </footer>
+
+</body>
+</html>

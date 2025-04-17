@@ -1,0 +1,213 @@
+*{
+
+   margin: 0%;
+   padding: 0%;
+    box-sizing: border-box;
+
+
+
+
+
+}
+
+
+
+body{
+
+    background-color: #002434;
+    color: white;
+    margin: 0px;
+    padding: 0 20%;
+    font-family: Verdana;
+    
+    
+    }
+
+
+
+header{
+
+display: flex;
+justify-content:space-between;
+margin-bottom: 1.0rem;
+margin-top: 1.0rem;
+
+
+
+}
+
+
+.logo span{
+
+color:#0076aa;
+
+
+}
+
+.logo{
+
+font-family: Verdana;
+font-size: 70%;
+
+
+}
+
+
+.itens {
+
+gap: 2%;
+display: flex;
+
+
+
+
+
+}
+
+
+.itens li a:hover{
+ color:#0076aa;
+
+
+
+}
+
+
+a{
+text-decoration: none;
+color: white;
+font-size: 0.93rem;
+
+
+}
+
+li{
+list-style: none;
+
+}
+
+
+
+.content .banner{
+
+
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5df706a0a345bc32f5878970/1618217794854-5BKBLOM1ZLD14HMINUTW/sports0039-surfer-wave-abstract-figurative-paintingS04s.jpg?format=2500w");
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    width: 50rem;
+    margin: 0%;
+    border-radius: 0.5rem;
+    
+}
+
+
+
+
+
+.text{
+
+
+    display: flex;
+    
+
+
+
+}
+
+.text .block{
+
+    margin: 0.5rem;
+
+
+
+}
+
+
+.text .block button{
+
+    margin-top: 1rem;
+
+
+}
+.block{
+
+    
+    border-radius: 0.6rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: small;
+    
+
+
+}
+
+
+
+
+
+footer nav ul{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.0rem;
+    margin-top: 1.0rem;
+
+
+
+
+}
+
+
+footer nav ul li{
+
+    font-size: medium;
+
+
+
+}
+
+footer nav ul li a:hover{
+
+color: #0076aa;
+
+}
+
+
+div.contender .texto{
+
+   display: flex;
+
+
+}
+
+
+
+div.contender .texto .bloco.item_2{
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+div.contender .texto .bloco.item{
+
+    margin-top: 1.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+div.contender{
+
+
+    margin-top: 1rem;
+    font-size: small;
+
+}
