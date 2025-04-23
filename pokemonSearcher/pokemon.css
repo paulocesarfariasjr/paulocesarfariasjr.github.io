@@ -1,0 +1,71 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: 'pokemon';
+    src: url(/arquivos/Fonts/Pokemon\ Hollow.ttf);
+}
+
+
+body{
+background-image: url('https://images8.alphacoders.com/473/thumb-1920-473857.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+
+font-family: 'pokemon';
+font-size: 6rem
+
+}
+
+
+
+
+
+
+
+
+div.mainContainer div#bloco div#searcher{
+
+background-color: rgb(36, 97, 189);
+width: 350px;
+height: 350px;
+border-radius: 1rem;
+margin: 0 auto;
+border: 0.5rem azure solid;
+
+
+
+}
+
+div.mainContainer div#bloco{
+
+
+display: flex;
+justify-content: center;
+
+}
+
+div.mainContainer div#bloco div#searcher div{
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 1rem;
+
+}
+
+div.mainContainer div#bloco div#searcher div img#search:hover{
+
+cursor: pointer;
+
+}
+
+
