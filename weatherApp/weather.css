@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+section.Search-bar{
+
+   display: flex;
+   justify-content: center;
+   
+
+
+}
+
+
+div.container div.box section#result h1.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+   font-size: 2.8rem;
+   font-family: sans-serif;
+    
+}
+
+div.container div.box section#result img.info{
+
+
+  
+  margin: 1% 27%;
+
+}
+
+div.container div.box section#useful h1.info{
+
+
+  font-size: 6vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+div.container div.box section#useful p.info{
+
+margin-top: 0.5vh;
+font-family: sans-serif;
+display: grid;
+place-items: center;
+font-weight: 600;
+
+
+}
+
+
+div.container{
+
+margin-top: 8%;
+
+}
+
+
+
+body{
+
+background-image: url('../arquivos/images/Background.gif');
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+.box{
+
+width: 60vh;
+height: 60vh;
+background-color: rgba(255, 255, 255, 0.7);
+border-radius: 0.8rem;
+margin: 0 auto;
+
+
+
+}
